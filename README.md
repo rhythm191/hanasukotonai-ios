@@ -1,4 +1,4 @@
 #  hanasukotonai-ios
 
-1on1で話すことない時に使うAndroidアプリです。
+1on1で話すことない時に使うiOSアプリです。
 
