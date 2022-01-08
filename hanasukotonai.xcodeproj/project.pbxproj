@@ -99,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				5DDC4B4827891B4E005FC9D4 /* hanasukotonaiApp.swift */,
-				5DDC4B4A27891B4E005FC9D4 /* ContentView.swift */,
+				5DDC4B7827891FA2005FC9D4 /* Models */,
+				5DDC4B7727891F91005FC9D4 /* Views */,
 				5DDC4B4C27891B51005FC9D4 /* Assets.xcassets */,
 				5DDC4B5127891B51005FC9D4 /* Persistence.swift */,
 				5DDC4B5327891B51005FC9D4 /* hanasukotonai.xcdatamodeld */,
@@ -131,6 +132,21 @@
 				5DDC4B6A27891B51005FC9D4 /* hanasukotonaiUITestsLaunchTests.swift */,
 			);
 			path = hanasukotonaiUITests;
+			sourceTree = "<group>";
+		};
+		5DDC4B7727891F91005FC9D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5DDC4B4A27891B4E005FC9D4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DDC4B7827891FA2005FC9D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

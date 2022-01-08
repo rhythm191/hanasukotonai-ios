@@ -18,27 +18,18 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
+            VStack {
+                Text("進捗について話す")
+                    .padding(.bottom)
+                    .font(.largeTitle)
+                
+                Button(action: {}) {
+                    Text("別の話題にする")
+                        .foregroundColor(.white)
                 }
-                .onDelete(perform: deleteItems)
+                .padding(.all)
+                .background(Color.blue)
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
         }
     }
 
