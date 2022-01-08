@@ -19,12 +19,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("進捗について話す")
+                Text("topic_about_career")
                     .padding(.bottom)
                     .font(.largeTitle)
                 
                 Button(action: {}) {
-                    Text("別の話題にする")
+                    Text("change topic")
                         .foregroundColor(.white)
                 }
                 .padding(.all)
@@ -74,6 +74,8 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        ContentView()
+            .environment(\.locale, .init(identifier: "ja"))
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  hanasukotonai
+
+  Created by rhythm191 on 2022/01/08.
+  
+*/
+
+"topic_about_career" = "キャリアの話をする";
+"topic_about_progress" = "進捗の話をする";
+"topic_about_relationships" = "人間関係の話をする";
+"topic_about_work_process" = "仕事の進め方の話をする";
+"topic_about_trouble" = "悩み事の話をする";
+"topic_about_positive_skill" = "伸ばしたいスキルの話をする";
+"topic_about_not_good_at" = "不得意なことの話をする";
+"topic_about_team_member" = "チームメンバーの話をする";
+"topic_about_future" = "今後の方針の話をする";
+"topic_about_business_strategy" = "事業戦略の話をする";
+"topic_about_objective" = "今期の目標の話をする";
+"topic_about_private" = "プライベートの話をする";
+"topic_about_motivation" = "モチベーションの話をする";
+"topic_about_health" = "健康の話をする";
+"topic_about_evaluation" = "評価の話をする";
+"change topic" = "別の話題にする";

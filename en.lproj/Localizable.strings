@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  hanasukotonai
+
+  Created by rhythm191 on 2022/01/08.
+  
+*/
+
+"topic_about_career" = "talk about career";
+"topic_about_progress" = "talk about progress";
+"topic_about_relationships" = "talk about relationships";
+"topic_about_work_process" = "talk about work process";
+"topic_about_trouble" = "talk about trouble";
+"topic_about_positive_skill" = "talk about positive skill";
+"topic_about_not_good_at" = "about not good at";
+"topic_about_team_member" = "about team member";
+"topic_about_future" = "talk about future";
+"topic_about_business_strategy" = "talk about business strategy";
+"topic_about_objective" = "talk about objective";
+"topic_about_private" = "talk about private";
+"topic_about_motivation" = "talk about motivation";
+"topic_about_health" = "talk about health";
+"topic_about_evaluation" = "talk about evaluation";
+"change topic" = "change topic";
