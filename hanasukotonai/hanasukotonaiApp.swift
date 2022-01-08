@@ -13,7 +13,7 @@ struct hanasukotonaiApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(topicViewModel: TopicViewModel(topic: Topic(id: "h4zxbacIgeFiVcwatbVA", titleId: "topic_about_career")))
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

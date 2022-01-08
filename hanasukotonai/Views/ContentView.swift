@@ -11,6 +11,8 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
+    @State var topicViewModel: TopicViewModel
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
@@ -19,7 +21,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("topic_about_career")
+                Text(topicViewModel.topic.titleId)
                     .padding(.bottom)
                     .font(.largeTitle)
                 
@@ -74,7 +76,7 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(topicViewModel: TopicViewModel(topic: Topic(id: "h4zxbacIgeFiVcwatbVA", titleId: "topic_about_career")))
             .environment(\.locale, .init(identifier: "ja"))
             .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
